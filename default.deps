@@ -1,28 +1,28 @@
 daemon_version=0.8
 
-http://central.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
+https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
   CloudCoderLogging/lib/jsr305.jar
-http://repo1.maven.org/maven2/com/google/guava/guava/13.0.1/guava-13.0.1.jar
+https://repo1.maven.org/maven2/com/google/guava/guava/13.0.1/guava-13.0.1.jar
   CloudCoderLogging/lib/guava.jar
-http://central.maven.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16.jar
+https://repo1.maven.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16.jar
   CloudCoder/war/WEB-INF/lib/log4j-1.2.16.jar
   CloudCoderLogging/lib/log4j-1.2.16.jar
   CloudCoderInstallationWizard/lib/log4j-1.2.16.jar
-http://central.maven.org/maven2/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/r239/owasp-java-html-sanitizer-r239.jar
+https://repo1.maven.org/maven2/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/r239/owasp-java-html-sanitizer-r239.jar
   CloudCoderLogging/lib/owasp-java-html-sanitizer.jar
 
 # slf4j
 slf4j_version=1.6.4
-http://repo1.maven.org/maven2/org/slf4j/slf4j-api/${slf4j_version}/slf4j-api-${slf4j_version}.jar
+https://repo1.maven.org/maven2/org/slf4j/slf4j-api/${slf4j_version}/slf4j-api-${slf4j_version}.jar
   CloudCoderLogging/lib/slf4j-api-${slf4j_version}.jar
   CloudCoder/war/WEB-INF/lib/slf4j-api-${slf4j_version}.jar
   CloudCoderInstallationWizard/lib/slf4j-api-${slf4j_version}.jar
-http://repo2.maven.org/maven2/org/slf4j/slf4j-log4j12/${slf4j_version}/slf4j-log4j12-${slf4j_version}.jar
+https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/${slf4j_version}/slf4j-log4j12-${slf4j_version}.jar
   CloudCoderLogging/lib/slf4j-log4j12-${slf4j_version}.jar
   CloudCoder/war/WEB-INF/lib/slf4j-log4j12-${slf4j_version}.jar
   CloudCoderInstallationWizard/lib/slf4j-log4j12-${slf4j_version}.jar
 
-http://repo1.maven.org/maven2/commons-io/commons-io/2.1/commons-io-2.1.jar
+https://repo1.maven.org/maven2/commons-io/commons-io/2.1/commons-io-2.1.jar
   CloudCoderBuilder2/lib/commons-io-2.1.jar
   CloudCoder/war/WEB-INF/lib/commons-io-2.1.jar
   CloudCoderLoadTester/lib/commons-io-2.1.jar
@@ -31,7 +31,7 @@ http://repo1.maven.org/maven2/commons-io/commons-io/2.1/commons-io-2.1.jar
   CloudCoderJetty/lib/commons/commons-io-2.1.jar
   CloudCoderInstallationWizard/lib/commons-io-2.1.jar
 
-http://repo1.maven.org/maven2/org/python/jython-standalone/2.5.3/jython-standalone-2.5.3.jar
+https://repo1.maven.org/maven2/org/python/jython-standalone/2.5.3/jython-standalone-2.5.3.jar
   CloudCoderBuilder2/lib/jython-standalone-2.5.3.jar
 https://s3.amazonaws.com/org.cloudcoder.daemon.binaries/daemon-${daemon_version}.jar
   CloudCoderJetty/lib/daemon/daemon-${daemon_version}.jar
@@ -40,72 +40,72 @@ https://s3.amazonaws.com/org.cloudcoder.daemon.binaries/daemon-${daemon_version}
   CloudCoderDataAnalysis/lib/daemon-${daemon_version}.jar
 https://repo1.maven.org/maven2/org/jruby/jruby-complete/1.7.0/jruby-complete-1.7.0.jar
   CloudCoderBuilder2/lib/jruby-complete-1.7.0.jar
-http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-ajp/7.4.4.v20110707/jetty-ajp-7.4.4.v20110707.jar
+https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-ajp/7.4.4.v20110707/jetty-ajp-7.4.4.v20110707.jar
   CloudCoderJetty/lib/jetty/jetty-ajp-7.4.4.v20110707.jar
-http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-annotations/7.4.4.v20110707/jetty-annotations-7.4.4.v20110707.jar
+https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-annotations/7.4.4.v20110707/jetty-annotations-7.4.4.v20110707.jar
   CloudCoderJetty/lib/jetty/jetty-annotations-7.4.4.v20110707.jar
-http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/7.4.4.v20110707/jetty-client-7.4.4.v20110707.jar
+https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/7.4.4.v20110707/jetty-client-7.4.4.v20110707.jar
   CloudCoderJetty/lib/jetty/jetty-client-7.4.4.v20110707.jar
-http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/7.4.4.v20110707/jetty-continuation-7.4.4.v20110707.jar
+https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/7.4.4.v20110707/jetty-continuation-7.4.4.v20110707.jar
   CloudCoderJetty/lib/jetty/jetty-continuation-7.4.4.v20110707.jar
-http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-deploy/7.4.4.v20110707/jetty-deploy-7.4.4.v20110707.jar
+https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-deploy/7.4.4.v20110707/jetty-deploy-7.4.4.v20110707.jar
   CloudCoderJetty/lib/jetty/jetty-deploy-7.4.4.v20110707.jar
-http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/7.4.4.v20110707/jetty-http-7.4.4.v20110707.jar
+https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/7.4.4.v20110707/jetty-http-7.4.4.v20110707.jar
   CloudCoderJetty/lib/jetty/jetty-http-7.4.4.v20110707.jar
-http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/7.4.4.v20110707/jetty-io-7.4.4.v20110707.jar
+https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/7.4.4.v20110707/jetty-io-7.4.4.v20110707.jar
   CloudCoderJetty/lib/jetty/jetty-io-7.4.4.v20110707.jar
-http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-jmx/7.4.4.v20110707/jetty-jmx-7.4.4.v20110707.jar
+https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-jmx/7.4.4.v20110707/jetty-jmx-7.4.4.v20110707.jar
   CloudCoderJetty/lib/jetty/jetty-jmx-7.4.4.v20110707.jar
-http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-jndi/7.4.4.v20110707/jetty-jndi-7.4.4.v20110707.jar
+https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-jndi/7.4.4.v20110707/jetty-jndi-7.4.4.v20110707.jar
   CloudCoderJetty/lib/jetty/jetty-jndi-7.4.4.v20110707.jar
-http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-overlay-deployer/7.4.4.v20110707/jetty-overlay-deployer-7.4.4.v20110707.jar
+https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-overlay-deployer/7.4.4.v20110707/jetty-overlay-deployer-7.4.4.v20110707.jar
   CloudCoderJetty/lib/jetty/jetty-overlay-deployer-7.4.4.v20110707.jar
-http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-plus/7.4.4.v20110707/jetty-plus-7.4.4.v20110707.jar
+https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-plus/7.4.4.v20110707/jetty-plus-7.4.4.v20110707.jar
   CloudCoderJetty/lib/jetty/jetty-plus-7.4.4.v20110707.jar
-http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-policy/7.4.4.v20110707/jetty-policy-7.4.4.v20110707.jar
+https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-policy/7.4.4.v20110707/jetty-policy-7.4.4.v20110707.jar
   CloudCoderJetty/lib/jetty/jetty-policy-7.4.4.v20110707.jar
-http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-rewrite/7.4.4.v20110707/jetty-rewrite-7.4.4.v20110707.jar
+https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-rewrite/7.4.4.v20110707/jetty-rewrite-7.4.4.v20110707.jar
   CloudCoderJetty/lib/jetty/jetty-rewrite-7.4.4.v20110707.jar
-http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/7.4.4.v20110707/jetty-security-7.4.4.v20110707.jar
+https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/7.4.4.v20110707/jetty-security-7.4.4.v20110707.jar
   CloudCoderJetty/lib/jetty/jetty-security-7.4.4.v20110707.jar
-http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/7.4.4.v20110707/jetty-server-7.4.4.v20110707.jar
+https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/7.4.4.v20110707/jetty-server-7.4.4.v20110707.jar
   CloudCoderJetty/lib/jetty/jetty-server-7.4.4.v20110707.jar
-http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/7.4.4.v20110707/jetty-servlet-7.4.4.v20110707.jar
+https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/7.4.4.v20110707/jetty-servlet-7.4.4.v20110707.jar
   CloudCoderJetty/lib/jetty/jetty-servlet-7.4.4.v20110707.jar
-http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlets/7.4.4.v20110707/jetty-servlets-7.4.4.v20110707.jar
+https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlets/7.4.4.v20110707/jetty-servlets-7.4.4.v20110707.jar
   CloudCoderJetty/lib/jetty/jetty-servlets-7.4.4.v20110707.jar
-http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/7.4.4.v20110707/jetty-util-7.4.4.v20110707.jar
+https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/7.4.4.v20110707/jetty-util-7.4.4.v20110707.jar
   CloudCoderJetty/lib/jetty/jetty-util-7.4.4.v20110707.jar
-http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/7.4.4.v20110707/jetty-webapp-7.4.4.v20110707.jar
+https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/7.4.4.v20110707/jetty-webapp-7.4.4.v20110707.jar
   CloudCoderJetty/lib/jetty/jetty-webapp-7.4.4.v20110707.jar
-http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/7.4.4.v20110707/jetty-websocket-7.4.4.v20110707.jar
+https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/7.4.4.v20110707/jetty-websocket-7.4.4.v20110707.jar
   CloudCoderJetty/lib/jetty/jetty-websocket-7.4.4.v20110707.jar
-http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/7.4.4.v20110707/jetty-xml-7.4.4.v20110707.jar
+https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/7.4.4.v20110707/jetty-xml-7.4.4.v20110707.jar
   CloudCoderJetty/lib/jetty/jetty-xml-7.4.4.v20110707.jar
-http://repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar
+https://repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar
   CloudCoderJetty/lib/jetty/servlet-api-2.5.jar
-http://download.eclipse.org/jetty/orbit/com.sun.el_1.0.0.v201004190952.jar
+https://download.eclipse.org/jetty/orbit/com.sun.el_1.0.0.v201004190952.jar
   CloudCoderJetty/lib/jetty/jsp/com.sun.el_1.0.0.v201004190952.jar
-http://download.eclipse.org/jetty/orbit/ecj-3.6.jar
+https://download.eclipse.org/jetty/orbit/ecj-3.6.jar
   CloudCoderJetty/lib/jetty/jsp/ecj-3.6.jar
-http://download.eclipse.org/jetty/orbit/javax.el_2.1.0.v201004190952.jar
+https://download.eclipse.org/jetty/orbit/javax.el_2.1.0.v201004190952.jar
   CloudCoderJetty/lib/jetty/jsp/javax.el_2.1.0.v201004190952.jar
-http://download.eclipse.org/jetty/orbit/javax.servlet.jsp_2.1.0.v201004190952.jar
+https://download.eclipse.org/jetty/orbit/javax.servlet.jsp_2.1.0.v201004190952.jar
   CloudCoderJetty/lib/jetty/jsp/javax.servlet.jsp_2.1.0.v201004190952.jar
-http://download.eclipse.org/jetty/orbit/javax.servlet.jsp.jstl_1.2.0.v201004190952.jar
+https://download.eclipse.org/jetty/orbit/javax.servlet.jsp.jstl_1.2.0.v201004190952.jar
   CloudCoderJetty/lib/jetty/jsp/javax.servlet.jsp.jstl_1.2.0.v201004190952.jar
-http://download.eclipse.org/jetty/orbit/org.apache.jasper.glassfish_2.1.0.v201007080150.jar
+https://download.eclipse.org/jetty/orbit/org.apache.jasper.glassfish_2.1.0.v201007080150.jar
   CloudCoderJetty/lib/jetty/jsp/org.apache.jasper.glassfish_2.1.0.v201007080150.jar
-http://download.eclipse.org/jetty/orbit/org.apache.taglibs.standard.glassfish_1.2.0.v201004190952.jar
+https://download.eclipse.org/jetty/orbit/org.apache.taglibs.standard.glassfish_1.2.0.v201004190952.jar
   CloudCoderJetty/lib/jetty/jsp/org.apache.taglibs.standard.glassfish_1.2.0.v201004190952.jar
-http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-jsp-2.1/7.4.4.v20110707/jetty-jsp-2.1-7.4.4.v20110707.jar
+https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-jsp-2.1/7.4.4.v20110707/jetty-jsp-2.1-7.4.4.v20110707.jar
   CloudCoderJetty/lib/jetty/jsp/jetty-jsp-2.1-7.4.4.v20110707.jar
-http://central.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
+https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
   CloudCoderModelClassesJSON/lib/json-simple-1.1.1.jar
   CloudCoder/war/WEB-INF/lib/json-simple-1.1.1.jar
   CloudCoderRepository/war/WEB-INF/lib/json-simple-1.1.1.jar
   CloudCoderHealthMonitor/lib/json-simple-1.1.1.jar
-http://repo1.maven.org/maven2/javax/mail/mail/1.4/mail-1.4.jar
+https://repo1.maven.org/maven2/javax/mail/mail/1.4/mail-1.4.jar
   CloudCoderRepository/war/WEB-INF/lib/mail.jar
   CloudCoder/war/WEB-INF/lib/mail.jar
   CloudCoderHealthMonitor/lib/mail.jar
@@ -113,34 +113,34 @@ https://downloads.mariadb.com/Connectors/java/connector-java-1.5.7/mariadb-java-
   CloudCoderModelClassesPersistence/lib/mariadb-java-client-1.5.7.jar
   CloudCoderRepository/war/WEB-INF/lib/mariadb-java-client-1.5.7.jar
   CloudCoder/war/WEB-INF/lib/mariadb-java-client-1.5.7.jar
-http://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.2.2/commons-fileupload-1.2.2.jar
+https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.2.2/commons-fileupload-1.2.2.jar
   CloudCoder/war/WEB-INF/lib/commons-fileupload-1.2.2.jar
-http://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
+https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
   CloudCoder/war/WEB-INF/lib/commons-logging-1.1.1.jar
   CloudCoderHealthMonitor/lib/commons-logging-1.1.1.jar
   CloudCoderInstallationWizard/lib/commons-logging-1.1.1.jar
-http://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar
+https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar
   CloudCoderTools/lib/dom4j-1.6.1.jar
   CloudCoder/war/WEB-INF/lib/dom4j-1.6.1.jar
-http://repo1.maven.org/maven2/jaxen/jaxen/1.1.3/jaxen-1.1.3.jar
+https://repo1.maven.org/maven2/jaxen/jaxen/1.1.3/jaxen-1.1.3.jar
   CloudCoderTools/lib/jaxen-1.1.3.jar
-http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.jar
+https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.jar
   CloudCoder/war/WEB-INF/lib/httpclient-4.2.1.jar
   CloudCoderHealthMonitor/lib/httpclient-4.2.1.jar
-http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar
+https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar
   CloudCoder/war/WEB-INF/lib/httpcore-4.2.1.jar
   CloudCoderHealthMonitor/lib/httpcore-4.2.1.jar
-http://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar
+https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar
   CloudCoder/war/WEB-INF/lib/opencsv-2.3.jar
-http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.3.26/aws-java-sdk-1.3.26.jar
+https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.3.26/aws-java-sdk-1.3.26.jar
   CloudCoderTools/lib/aws-java-sdk-1.3.26.jar
 https://s3.amazonaws.com/org.cloudcoder.daemon.binaries/SyncProxy-0.4.jar
   CloudCoderLoadTester/lib/SyncProxy-0.4.jar
-http://repo1.maven.org/maven2/com/mchange/c3p0/0.9.2.1/c3p0-0.9.2.1.jar
+https://repo1.maven.org/maven2/com/mchange/c3p0/0.9.2.1/c3p0-0.9.2.1.jar
   CloudCoderModelClassesPersistence/lib/c3p0-0.9.2.1.jar
   CloudCoder/war/WEB-INF/lib/c3p0-0.9.2.1.jar
   CloudCoderRepository/war/WEB-INF/lib/c3p0-0.9.2.1.jar
-http://repo1.maven.org/maven2/com/mchange/mchange-commons-java/0.2.3.4/mchange-commons-java-0.2.3.4.jar
+https://repo1.maven.org/maven2/com/mchange/mchange-commons-java/0.2.3.4/mchange-commons-java-0.2.3.4.jar
   CloudCoderModelClassesPersistence/lib/mchange-commons-java-0.2.3.4.jar
   CloudCoder/war/WEB-INF/lib/mchange-commons-java-0.2.3.4.jar
   CloudCoderRepository/war/WEB-INF/lib/mchange-commons-java-0.2.3.4.jar
@@ -150,7 +150,7 @@ http://repo1.maven.org/maven2/com/mchange/mchange-commons-java/0.2.3.4/mchange-c
 #
 https://java-diff-utils.googlecode.com/files/diffutils-1.2.1.jar
   CloudCoderAnalysis/lib/diffutils-1.2.1.jar
-http://repo1.maven.org/maven2/org/ow2/asm/asm-all/4.1/asm-all-4.1.jar
+https://repo1.maven.org/maven2/org/ow2/asm/asm-all/4.1/asm-all-4.1.jar
   CloudCoderAnalysis/lib/asm-all-4.1.jar
 
 #
@@ -158,7 +158,7 @@ http://repo1.maven.org/maven2/org/ow2/asm/asm-all/4.1/asm-all-4.1.jar
 #
 
 # We can directly download Eclipse 3.7.1 jars from this site:
-mirrorServiceEclipse371=http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/eclipse/updates/3.7/R-3.7.1-201109091335/plugins
+mirrorServiceEclipse371=https://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/eclipse/updates/3.7/R-3.7.1-201109091335/plugins
 
 ${mirrorServiceEclipse371}/org.eclipse.core.contenttype_3.4.100.v20110423-0524.jar
   CloudCoderAnalysis/lib/org.eclipse.core.contenttype_3.4.100.v20110423-0524.jar
@@ -191,7 +191,7 @@ ${mirrorServiceEclipse371}/org.eclipse.text_3.5.101.r371_v20110810-0800.jar
 # CloudCoderDataAnalysis uses opencsv
 #
 opencsv_version=2.4
-http://central.maven.org/maven2/au/com/bytecode/opencsv/${opencsv_version}/opencsv-${opencsv_version}.jar
+https://repo1.maven.org/maven2/au/com/bytecode/opencsv/${opencsv_version}/opencsv-${opencsv_version}.jar
   CloudCoderDataAnalysis/lib/opencsv-${opencsv_version}.jar
 
 #
@@ -201,21 +201,21 @@ http://central.maven.org/maven2/au/com/bytecode/opencsv/${opencsv_version}/openc
 
 # Jackson jarfiles
 jackson_version=2.4.1
-http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/${jackson_version}/jackson-annotations-${jackson_version}.jar
+https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/${jackson_version}/jackson-annotations-${jackson_version}.jar
   CloudCoderModelClassesJSON/lib/jackson-annotations-${jackson_version}.jar
   CloudCoder/war/WEB-INF/lib/jackson-annotations-${jackson_version}.jar
   CloudCoderRepository/war/WEB-INF/lib/jackson-annotations-${jackson_version}.jar
   CloudCoderHealthMonitor/lib/jackson-annotations-${jackson_version}.jar
   CloudCoderDataAnalysis/lib/jackson-annotations-${jackson_version}.jar
   CloudCoderInstallationWizard/lib/jackson-annotations-${jackson_version}.jar
-http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/${jackson_version}/jackson-core-${jackson_version}.jar
+https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/${jackson_version}/jackson-core-${jackson_version}.jar
   CloudCoderModelClassesJSON/lib/jackson-core-${jackson_version}.jar
   CloudCoder/war/WEB-INF/lib/jackson-core-${jackson_version}.jar
   CloudCoderRepository/war/WEB-INF/lib/jackson-core-${jackson_version}.jar
   CloudCoderHealthMonitor/lib/jackson-core-${jackson_version}.jar
   CloudCoderDataAnalysis/lib/jackson-core-${jackson_version}.jar
   CloudCoderInstallationWizard/lib/jackson-core-${jackson_version}.jar
-http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/${jackson_version}/jackson-databind-${jackson_version}.jar
+https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/${jackson_version}/jackson-databind-${jackson_version}.jar
   CloudCoderModelClassesJSON/lib/jackson-databind-${jackson_version}.jar
   CloudCoder/war/WEB-INF/lib/jackson-databind-${jackson_version}.jar
   CloudCoderRepository/war/WEB-INF/lib/jackson-databind-${jackson_version}.jar
@@ -226,50 +226,50 @@ http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/${jack
 # Jackson javadoc jarfiles.  We only need one copy of these since all of
 # our Eclipse projects reference Jackson through the CloudCoderModelClassesJSON
 # project via the Eclipse build path.
-http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/${jackson_version}/jackson-annotations-${jackson_version}-javadoc.jar
+https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/${jackson_version}/jackson-annotations-${jackson_version}-javadoc.jar
   CloudCoderModelClassesJSON/lib/jackson-annotations-${jackson_version}-javadoc.jar
-http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/${jackson_version}/jackson-core-${jackson_version}-javadoc.jar
+https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/${jackson_version}/jackson-core-${jackson_version}-javadoc.jar
   CloudCoderModelClassesJSON/lib/jackson-core-${jackson_version}-javadoc.jar
-http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/${jackson_version}/jackson-databind-${jackson_version}-javadoc.jar
+https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/${jackson_version}/jackson-databind-${jackson_version}-javadoc.jar
   CloudCoderModelClassesJSON/lib/jackson-databind-${jackson_version}-javadoc.jar
 
 # AWS SDK jarfiles
 aws_sdk_version=1.10.54
-http://central.maven.org/maven2/com/amazonaws/aws-java-sdk-core/${aws_sdk_version}/aws-java-sdk-core-${aws_sdk_version}.jar
+https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/${aws_sdk_version}/aws-java-sdk-core-${aws_sdk_version}.jar
   CloudCoderInstallationWizard/lib/aws-java-sdk-core-${aws_sdk_version}.jar
-http://central.maven.org/maven2/com/amazonaws/aws-java-sdk-ec2/${aws_sdk_version}/aws-java-sdk-ec2-${aws_sdk_version}.jar
+https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-ec2/${aws_sdk_version}/aws-java-sdk-ec2-${aws_sdk_version}.jar
   CloudCoderInstallationWizard/lib/aws-java-sdk-ec2-${aws_sdk_version}.jar
 
 # Apache commons HTTP core/client
 apache_commons_httpclient_version=4.3.6
 apache_commons_httpcore_version=4.3.3
-http://central.maven.org/maven2/org/apache/httpcomponents/httpclient/${apache_commons_httpclient_version}/httpclient-${apache_commons_httpclient_version}.jar
+https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/${apache_commons_httpclient_version}/httpclient-${apache_commons_httpclient_version}.jar
   CloudCoderInstallationWizard/lib/httpclient-${apache_commons_httpclient_version}.jar
-http://central.maven.org/maven2/org/apache/httpcomponents/httpcore/${apache_commons_httpcore_version}/httpcore-${apache_commons_httpcore_version}.jar
+https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/${apache_commons_httpcore_version}/httpcore-${apache_commons_httpcore_version}.jar
   CloudCoderInstallationWizard/lib/httpcore-${apache_commons_httpcore_version}.jar
 
 # JODA time
 joda_time_version=2.8.1
-http://central.maven.org/maven2/joda-time/joda-time/${joda_time_version}/joda-time-${joda_time_version}.jar
+https://repo1.maven.org/maven2/joda-time/joda-time/${joda_time_version}/joda-time-${joda_time_version}.jar
   CloudCoderInstallationWizard/lib/joda-time-${joda_time_version}.jar
 
 # sshj
 sshj_version=0.15.0
-http://repo1.maven.org/maven2/com/hierynomus/sshj/${sshj_version}/sshj-${sshj_version}.jar
+https://repo1.maven.org/maven2/com/hierynomus/sshj/${sshj_version}/sshj-${sshj_version}.jar
   CloudCoderInstallationWizard/lib/sshj-${sshj_version}.jar
 
 # Bouncy Castle
 bouncycastle_version=1.54
-http://central.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/${bouncycastle_version}/bcprov-jdk15on-${bouncycastle_version}.jar
+https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/${bouncycastle_version}/bcprov-jdk15on-${bouncycastle_version}.jar
   CloudCoderInstallationWizard/lib/bcprov-jdk15on-${bouncycastle_version}.jar
-http://central.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/${bouncycastle_version}/bcpkix-jdk15on-${bouncycastle_version}.jar
+https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/${bouncycastle_version}/bcpkix-jdk15on-${bouncycastle_version}.jar
   CloudCoderInstallationWizard/lib/bcpkix-jdk15on-${bouncycastle_version}.jar
 
 # JZlib
 jzlib_version=1.1.3
-http://central.maven.org/maven2/com/jcraft/jzlib/${jzlib_version}/jzlib-${jzlib_version}.jar
+https://repo1.maven.org/maven2/com/jcraft/jzlib/${jzlib_version}/jzlib-${jzlib_version}.jar
   CloudCoderInstallationWizard/lib/jzlib-${jzlib_version}.jar
 
 # This is needed by sshj
-http://central.maven.org/maven2/net/vrallev/ecc/ecc-25519-java/1.0.1/ecc-25519-java-1.0.1.jar
+https://repo1.maven.org/maven2/net/vrallev/ecc/ecc-25519-java/1.0.1/ecc-25519-java-1.0.1.jar
   CloudCoderInstallationWizard/lib/ecc-25519-java-1.0.1.jar
