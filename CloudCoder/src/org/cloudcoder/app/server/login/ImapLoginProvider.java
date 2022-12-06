@@ -113,7 +113,8 @@ public class ImapLoginProvider extends AbstractLoginProvider {
 		String url="imap://mailtest:"+username+"@"+props.getProperty(LOGIN_HOST);
 
 		// configure the jvm to use the jsse security.
-		java.security.Security.addProvider(new com.sun.net.ssl.internal.ssl.Provider());
+		//java.security.Security.addProvider(new com.sun.net.ssl.internal.ssl.Provider());
+		//FIXME srmq above code does not work anymore
 
 		try {
 			// create the Session

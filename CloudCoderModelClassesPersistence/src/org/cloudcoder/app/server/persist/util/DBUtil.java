@@ -431,14 +431,9 @@ public class DBUtil {
 		if (config.getProperty(prefix + ".portStr") != null) {
 			portStr = config.getProperty(prefix + ".portStr");
 		}
-		try {
-		    String url="jdbc:mysql://" + dbHost + portStr+ "/" + databaseName + "?user=" + dbUser + "&password=" + URLEncoder.encode(dbPasswd, "UTF-8");
-		    logger.info(url);
-		    return DriverManager.getConnection(url);
-		} catch (UnsupportedEncodingException e) {
-		    // should never happen
-		    throw new RuntimeException(e);
-		}
+	    String url="jdbc:mysql://" + dbHost + portStr+ "/" + databaseName;
+	    logger.info(url);
+	    return DriverManager.getConnection(url, dbUser, dbPasswd);
 	}
 	
 	private static String getProp(Properties properties, String propName) {
